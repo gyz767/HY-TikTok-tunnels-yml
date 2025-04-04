@@ -7,7 +7,7 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 tunnels:
-- network: [tcp, udp]
+- network: [tcp]
   address: 127.0.0.1:10030
   target: hkgv1.sally1123.cc:10030
   proxy: 🇭🇰 香港实验性 IEPL 中继 1
