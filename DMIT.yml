@@ -19,6 +19,30 @@ tunnels:
   address: 127.0.0.1:57718
   target: mmhk6.kkmm2024.top:57718
   proxy: 🇭🇰 香港实验性 IEPL 中继 1
+- network: [tcp, udp]
+  address: 127.0.0.1:31198
+  target: twisp1.kkmm2024.top:31198
+  proxy: 🇭🇰 香港实验性 IEPL 中继 1
+- network: [tcp, udp]
+  address: 127.0.0.1:10030
+  target: twbgp2.kkmm2024.top:10030
+  proxy: 🇭🇰 香港实验性 IEPL 中继 1
+- network: [tcp, udp]
+  address: 127.0.0.1:10031
+  target: twisp2.kkmm2024.top:10031
+  proxy: 🇭🇰 香港实验性 IEPL 中继 1
+- network: [tcp, udp]
+  address: 127.0.0.1:10032
+  target: twisp3.kkmm2024.top:10032
+  proxy: 🇭🇰 香港实验性 IEPL 中继 1
+- network: [tcp, udp]
+  address: 127.0.0.1:10033
+  target: twisp4.kkmm2024.top:10033
+  proxy: 🇭🇰 香港实验性 IEPL 中继 1
+- network: [tcp, udp]
+  address: 127.0.0.1:10034
+  target: twisp5.kkmm2024.top:10034
+  proxy: 🇭🇰 香港实验性 IEPL 中继 1    
 sniffer:
   sniff:
     TLS: {ports: [1-65535], override-destination: true}
